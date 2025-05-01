@@ -16,3 +16,90 @@
       color: #fff;
       padding: 20px;
       text-align: center;
+      font-size: 24px;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 30px;
+    }
+    .product-card {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      width: 280px;
+      text-align: center;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    .product-card img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+    .product-card h3 {
+      margin: 15px 0 10px;
+    }
+    .product-card p {
+      color: #666;
+      font-size: 14px;
+    }
+    .price {
+      color: #28a745;
+      font-size: 16px;
+      margin: 10px 0;
+      font-weight: bold;
+    }
+    .buy-button {
+      background-color: #28a745;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 6px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      transition: background-color 0.3s;
+    }
+    .buy-button:hover {
+      background-color: #218838;
+    }
+  </style>
+</head>
+<body>
+
+<header>متجر الحسابات والبطاقات الرقمية</header>
+
+<div class="container">
+
+  <div class="product-card">
+    <img src="https://via.placeholder.com/280x160.png?text=بطاقة+Steam" alt="Steam Card">
+    <h3>بطاقة Steam $20</h3>
+    <p>بطاقة رقمية لشحن حساب Steam.</p>
+    <div class="price">20 دولار</div>
+    <a href="https://www.paypal.me/YOURPAYPAL/20" target="_blank" class="buy-button">اشترِ الآن</a>
+  </div>
+
+  <div class="product-card">
+    <img src="https://via.placeholder.com/280x160.png?text=حساب+Netflix" alt="Netflix Account">
+    <h3>حساب Netflix بريميوم</h3>
+    <p>حساب شغال لمدة 30 يوم.</p>
+    <div class="price">5 دولار</div>
+    <a href="https://www.paypal.me/YOURPAYPAL/5" target="_blank" class="buy-button">اشترِ الآن</a>
+  </div>
+
+  <div class="product-card">
+    <img src="https://via.placeholder.com/280x160.png?text=UC+ببجي" alt="PUBG UC">
+    <h3>UC ببجي - 810 UC</h3>
+    <p>شحن مباشر لحسابك خلال دقائق.</p>
+    <div class="price">10 دولار</div>
+    <a href="https://www.paypal.me/YOURPAYPAL/10" target="_blank" class="buy-button">اشترِ الآن</a>
+  </div>
+
+</div>
+
+</body>
+</html>
